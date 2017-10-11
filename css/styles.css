@@ -17,8 +17,8 @@ body {
 	margin: 0;
 	background-color: #ffffff;
 	color: #171717;
-	font: 300 18px "Lato", sans-serif;
-	line-height: 34px;
+	font: 300 18px/1.89 "Lato", sans-serif;
+
 
 }
 
@@ -35,13 +35,14 @@ body {
 }
 
 .ba-title {
-	color:  #171717;
 	font: 400 42px/1.5 "Playfair Display", serif;
-	margin: 0;
+	margin: 0 0 30px 0;
 }
 
-.ba-day25 p {
+p {
 	letter-spacing: -0.005em;
+	margin: 0 0 30px 0;
+
 }
 
 .ba-day25 p:first-of-type:first-letter {
@@ -62,7 +63,7 @@ body {
 	display: inline-block;
 }
 
-.ba-blockquote {
+blockquote {
 	font: 300 italic 24px/1.4 "Lato", sans-serif;
 	margin: 0 0 40px 0px;
 }
